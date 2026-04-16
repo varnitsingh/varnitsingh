@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Varnit Singh — Senior Analytics Engineer</title>
+  <meta name="description" content="Portfolio of Varnit Singh — Senior Analytics Engineer building end-to-end data pipelines with Python, Airflow, dbt, Snowflake, and Power BI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__container">
+      <a href="#hero" class="nav__logo">VS</a>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <p class="hero__greeting">hello, world. i'm</p>
+        <h1 class="hero__name">Varnit Singh</h1>
+        <h2 class="hero__title">Senior Analytics Engineer</h2>
+        <p class="hero__summary">
+          Building end-to-end data pipelines using Python, Airflow, dbt, Snowflake, Databricks &amp; Power BI.
+          Based in Gurugram, India.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Get in Touch</a>
+          <a href="https://www.linkedin.com/in/varnitsingh/" target="_blank" rel="noopener noreferrer" class="btn btn--outline">LinkedIn</a>
+        </div>
+      </div>
+      <!-- Replace SVG below with: <img src="your-photo.jpg" alt="Varnit Singh" class="hero__avatar"> -->
+      <div class="hero__avatar" aria-label="Profile photo placeholder">
+        <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="200" height="200" rx="4" fill="#141414"/>
+          <circle cx="100" cy="78" r="32" stroke="#606060" stroke-width="2" fill="none"/>
+          <circle cx="100" cy="72" r="14" fill="#2a2a2a" stroke="#606060" stroke-width="1.5"/>
+          <path d="M100 92c-28 0-48 16-52 38a4 4 0 004 4h96a4 4 0 004-4c-4-22-24-38-52-38z" fill="#2a2a2a" stroke="#606060" stroke-width="1.5"/>
+          <line x1="60" y1="160" x2="140" y2="160" stroke="#1e1e1e" stroke-width="1"/>
+          <rect x="72" y="168" width="56" height="6" rx="3" fill="#1e1e1e"/>
+          <rect x="80" y="178" width="40" height="4" rx="2" fill="#1e1e1e"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="section__container">
+      <h2 class="section__heading">About Me</h2>
+      <div class="about__content">
+        <p>
+          I'm a Senior Analytics Engineer at <strong>Optum</strong> with nearly 4 years of experience
+          designing and building production data systems. I specialize in creating modular, scalable
+          pipelines and self-service frameworks that empower analyst teams.
+        </p>
+        <p>
+          My work spans framework development for API-to-warehouse ingestion, orchestration with Airflow
+          and dbt, and deploying dashboards that serve 100+ monthly users.
+          I also build and publish open-source tools — including a PyPI package for Adobe Analytics — and
+          contribute to projects like Preswald.
+        </p>
+        <p>
+          Outside of work, I've completed 100+ freelance Python projects on Fiverr, ranging from web
+          scraping bots to full web applications.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section section--alt" id="experience">
+    <div class="section__container">
+      <h2 class="section__heading">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <!-- Replace with: <img src="optum-logo.png" alt="Optum" class="timeline__logo"> -->
+            <div class="timeline__logo" aria-label="Optum logo placeholder">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="4" fill="#141414"/>
+                <circle cx="20" cy="20" r="12" stroke="#ff0000" stroke-width="1.5" fill="none" opacity="0.6"/>
+                <path d="M14 20h12M20 14v12" stroke="#ff0000" stroke-width="1.5" opacity="0.4"/>
+              </svg>
+            </div>
+            <h3 class="timeline__role">Senior Analytics Engineer</h3>
+            <p class="timeline__company">Optum · Full-time</p>
+            <p class="timeline__period">Jun 2025 — Present · Gurugram, India (Hybrid)</p>
+            <ul class="timeline__details">
+              <li>Facilitating framework development for analyst teams — analysts pull required dashboard data through reusable frameworks.</li>
+              <li>Built frameworks from scratch: Adobe CJA API → Databricks, Adobe Workfront API → Databricks.</li>
+              <li>Deployed 8 dashboards with 100+ unique monthly views using Databricks, Power Automate &amp; Power BI.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <!-- Replace with: <img src="optum-logo.png" alt="Optum" class="timeline__logo"> -->
+            <div class="timeline__logo" aria-label="Optum logo placeholder">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="4" fill="#141414"/>
+                <circle cx="20" cy="20" r="12" stroke="#ff0000" stroke-width="1.5" fill="none" opacity="0.6"/>
+                <path d="M14 20h12M20 14v12" stroke="#ff0000" stroke-width="1.5" opacity="0.4"/>
+              </svg>
+            </div>
+            <h3 class="timeline__role">Analytics Engineer</h3>
+            <p class="timeline__company">Optum · Full-time</p>
+            <p class="timeline__period">Jul 2023 — Jun 2025 · 2 yrs</p>
+            <ul class="timeline__details">
+              <li>Developed ingestion frameworks: Adobe 1.4 API → Snowflake, 2.0 API → Snowflake.</li>
+              <li>Set up alerts, logging &amp; monitoring on ingestion/transformation pipelines through Airflow — missed SLAs reduced by 90%.</li>
+              <li>Created ETLs using Airflow, Cosmos, dbt &amp; Snowflake stack with open-source technologies.</li>
+              <li>Built a self-service migration product (Python, FastAPI, Selenium) accelerating DOMO → Power BI migrations.</li>
+            </ul>
+            <div class="timeline__tags">
+              <span class="tag">FastAPI</span>
+              <span class="tag">Docker</span>
+              <span class="tag">dbt</span>
+              <span class="tag">Airflow</span>
+              <span class="tag">Snowflake</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <!-- Replace with: <img src="optum-logo.png" alt="Optum" class="timeline__logo"> -->
+            <div class="timeline__logo" aria-label="Optum logo placeholder">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="4" fill="#141414"/>
+                <circle cx="20" cy="20" r="12" stroke="#ff0000" stroke-width="1.5" fill="none" opacity="0.6"/>
+                <path d="M14 20h12M20 14v12" stroke="#ff0000" stroke-width="1.5" opacity="0.4"/>
+              </svg>
+            </div>
+            <h3 class="timeline__role">Associate Data Engineer</h3>
+            <p class="timeline__company">Optum · Full-time</p>
+            <p class="timeline__period">Jul 2022 — Jul 2023 · 1 yr 1 mo</p>
+            <ul class="timeline__details">
+              <li>Implemented modular design for Python ingestion code — reduced new ingestion setup from 2 hours to 15 minutes.</li>
+              <li>Upgraded the main dashboard from a 24-hour delay to near real-time (1 hour).</li>
+              <li>Automated compliance-related manual tasks, enhancing efficiency and accuracy.</li>
+            </ul>
+            <div class="timeline__tags">
+              <span class="tag">Domo</span>
+              <span class="tag">Power BI</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <!-- Replace with: <img src="datagrokr-logo.png" alt="DataGrokr" class="timeline__logo"> -->
+            <div class="timeline__logo" aria-label="DataGrokr logo placeholder">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="4" fill="#141414"/>
+                <rect x="10" y="22" width="6" height="10" rx="1" fill="#606060" opacity="0.4"/>
+                <rect x="17" y="16" width="6" height="16" rx="1" fill="#606060" opacity="0.6"/>
+                <rect x="24" y="12" width="6" height="20" rx="1" fill="#606060" opacity="0.8"/>
+              </svg>
+            </div>
+            <h3 class="timeline__role">Data Engineer Intern</h3>
+            <p class="timeline__company">DataGrokr · Internship</p>
+            <p class="timeline__period">Jan 2022 — Jul 2022 · 7 mos (Remote)</p>
+            <ul class="timeline__details">
+              <li>Converted Teradata legacy scripts to Snowflake-compatible scripts.</li>
+              <li>Created POC to auto-load data from XML files on Amazon S3 into Snowflake tables.</li>
+            </ul>
+            <div class="timeline__tags">
+              <span class="tag">Snowflake</span>
+              <span class="tag">AWS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <!-- Replace with: <img src="fiverr-logo.png" alt="Fiverr" class="timeline__logo"> -->
+            <div class="timeline__logo" aria-label="Fiverr logo placeholder">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="4" fill="#141414"/>
+                <circle cx="20" cy="18" r="4" fill="#606060" opacity="0.5"/>
+                <rect x="12" y="24" width="16" height="3" rx="1.5" fill="#606060" opacity="0.4"/>
+                <path d="M15 30l5-2 5 2" stroke="#606060" stroke-width="1" fill="none" opacity="0.3"/>
+              </svg>
+            </div>
+            <h3 class="timeline__role">Python Developer</h3>
+            <p class="timeline__company">Fiverr · Freelance (Part-time)</p>
+            <p class="timeline__period">Aug 2020 — Dec 2021 · 1 yr 5 mos (Remote)</p>
+            <ul class="timeline__details">
+              <li>Completed 100+ Python projects: web apps, scripts, automation bots, and web scraping tools.</li>
+              <li>Achieved Level 1 Seller status on Fiverr.</li>
+            </ul>
+            <div class="timeline__tags">
+              <span class="tag">Python</span>
+              <span class="tag">Web Scraping</span>
+              <span class="tag">Automation</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="section__container">
+      <h2 class="section__heading">Featured Projects</h2>
+      <div class="projects__grid">
+
+        <article class="card">
+          <!-- Replace with: <img src="project-adobe.jpg" alt="easyAdobeAnalytics" class="card__image"> -->
+          <div class="card__image">
+            <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="200" fill="#0a0a0a"/>
+              <rect x="140" y="40" width="120" height="120" rx="8" stroke="#ff0000" stroke-width="2" fill="none"/>
+              <path d="M175 80h50l-25-25z" fill="#ff0000" opacity="0.3"/>
+              <rect x="165" y="90" width="70" height="4" rx="2" fill="#2a2a2a"/>
+              <rect x="165" y="100" width="50" height="4" rx="2" fill="#2a2a2a"/>
+              <rect x="165" y="110" width="60" height="4" rx="2" fill="#2a2a2a"/>
+              <circle cx="200" cy="135" r="12" stroke="#606060" stroke-width="1.5" fill="none"/>
+              <path d="M195 135l4 4 8-8" stroke="#606060" stroke-width="1.5" fill="none"/>
+              <text x="200" y="185" text-anchor="middle" fill="#2a2a2a" font-size="10" font-family="monospace">pip install</text>
+            </svg>
+          </div>
+          <p class="card__description">
+            Open-source PyPI package for pulling report data from the Adobe Analytics API.
+            Simplifies authentication and data retrieval so teams can get started quickly.
+          </p>
+          <div class="card__tags">
+            <span class="tag">Python</span>
+            <span class="tag">PyPI</span>
+            <span class="tag">Adobe Analytics</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <!-- Replace with: <img src="project-shopify.jpg" alt="Shopify Store Analyzer" class="card__image"> -->
+          <div class="card__image">
+            <svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="200" fill="#0a0a0a"/>
+              <rect x="160" y="50" width="80" height="80" rx="4" stroke="#606060" stroke-width="1.5" fill="none"/>
+              <path d="M180 75l20 15-20 15z" fill="#ff0000" opacity="0.4"/>
+              <line x1="160" y1="100" x2="240" y2="100" stroke="#1e1e1e" stroke-width="1"/>
+              <rect x="170" y="108" width="24" height="8" rx="2" fill="#2a2a2a"/>
+              <rect x="200" y="108" width="30" height="8" rx="2" fill="#1e1e1e"/>
+              <circle cx="130" cy="70" r="3" fill="#ff0000" opacity="0.3"/>
+              <circle cx="270" cy="90" r="3" fill="#ff0000" opacity="0.3"/>
+              <rect x="120" y="145" width="160" height="12" rx="6" fill="#141414"/>
+              <rect x="122" y="147" width="80" height="8" rx="4" fill="#ff0000" opacity="0.2"/>
+              <text x="200" y="185" text-anchor="middle" fill="#2a2a2a" font-size="10" font-family="monospace">analytics</text>
+            </svg>
+          </div>
+          <p class="card__description">
+            Streamlit app to scrape, analyze and visualize product data from any Shopify store —
+            explore pricing, SEO, categories, stock status and export as CSV.
+          </p>
+          <div class="card__tags">
+            <span class="tag">Streamlit</span>
+            <span class="tag">Python</span>
+            <span class="tag">E-commerce</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section--alt" id="skills">
+    <div class="section__container">
+      <h2 class="section__heading">Skills &amp; Tools</h2>
+      <div class="skills__grid">
+        <div class="skills__group">
+          <h3 class="skills__group-title">Languages &amp; Frameworks</h3>
+          <ul class="skills__list">
+            <li>Python</li>
+            <li>SQL</li>
+            <li>FastAPI</li>
+            <li>Selenium</li>
+            <li>Streamlit</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3 class="skills__group-title">Data Engineering</h3>
+          <ul class="skills__list">
+            <li>Apache Airflow</li>
+            <li>dbt (Data Build Tool)</li>
+            <li>Astronomer Cosmos</li>
+            <li>ETL / ELT Pipelines</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3 class="skills__group-title">Cloud &amp; Warehouses</h3>
+          <ul class="skills__list">
+            <li>Snowflake</li>
+            <li>Databricks</li>
+            <li>AWS (S3)</li>
+            <li>MinIO</li>
+            <li>Azure</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3 class="skills__group-title">BI &amp; Visualization</h3>
+          <ul class="skills__list">
+            <li>Power BI</li>
+            <li>Power Automate</li>
+            <li>Apache Superset</li>
+            <li>Domo</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3 class="skills__group-title">DevOps &amp; Tools</h3>
+          <ul class="skills__list">
+            <li>Docker</li>
+            <li>Git</li>
+            <li>DuckDB</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3 class="skills__group-title">Domains</h3>
+          <ul class="skills__list">
+            <li>Adobe Analytics (CJA, 1.4 &amp; 2.0 APIs)</li>
+            <li>E-commerce Analytics</li>
+            <li>Healthcare Data</li>
+            <li>Web Scraping &amp; Automation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section" id="education">
+    <div class="section__container">
+      <h2 class="section__heading">Education &amp; Certifications</h2>
+      <div class="education__grid">
+        <div class="education__item">
+          <h3 class="education__degree">Bachelor's Degree — Information Technology</h3>
+          <p class="education__school">University Institute of Engineering and Technology (UIET)</p>
+          <p class="education__period">2018 — 2022</p>
+        </div>
+        <div class="education__certs">
+          <h3 class="education__degree">Certifications</h3>
+          <ul class="education__cert-list">
+            <li>
+              <strong>Tech On the Go: Ethics in AI</strong>
+              <span class="education__cert-issuer">LinkedIn · Feb 2024</span>
+            </li>
+            <li>
+              <strong>AWS Partner: Accreditation (Technical)</strong>
+              <span class="education__cert-issuer">Amazon Web Services · Mar 2022</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section--alt" id="contact">
+    <div class="section__container section__container--narrow">
+      <h2 class="section__heading">Get in Touch</h2>
+      <p class="contact__text">
+        I'm always open to discussing data engineering challenges, freelance projects, or collaboration
+        opportunities. Feel free to reach out.
+      </p>
+      <div class="contact__links">
+        <a href="https://www.linkedin.com/in/varnitsingh/" target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+          LinkedIn
+        </a>
+        <a href="https://varnitsingh.medium.com/" target="_blank" rel="noopener noreferrer" class="btn btn--outline">
+          Medium Blog
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__container">
+      <p>&copy; 2026 Varnit Singh. Built with HTML, CSS &amp; JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
